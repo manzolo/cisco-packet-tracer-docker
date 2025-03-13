@@ -5,7 +5,7 @@ This repository contains a Dockerfile for building a Docker image of Cisco Packe
 ## Prerequisites
 
 * Docker installed on your system.
-* **Cisco Packet Tracer `.deb` package:** You must download the official Cisco Packet Tracer `.deb` package from the [official Cisco Networking Academy website]([https://www.netacad.com/](https://www.netacad.com/resources/lab-downloads?courseLang=en-US)). Due to licensing restrictions, this repository cannot provide the Packet Tracer software.
+* **Cisco Packet Tracer `.deb` package:** You must download the official Cisco Packet Tracer `.deb` package from the [official Cisco Networking Academy website](https://www.netacad.com/resources/lab-downloads?courseLang=en-US). Due to licensing restrictions, this repository cannot provide the Packet Tracer software.
 
 ## Instructions
 
