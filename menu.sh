@@ -8,7 +8,7 @@ build_image() {
 # Function to run the Docker container with X11 forwarding and volumes
 run_container() {
   xhost +local:docker
-  docker run -it --name packettracer --rm \
+  docker run -it --name cisco-packet-tracer --rm \
     -e DISPLAY=$DISPLAY \
     -v ./storage:/home/pt/storage \
     -v ./saves:/home/pt/pt/saves \
@@ -19,7 +19,7 @@ run_container() {
 
 # Function to enter the Docker container shell
 enter_container_shell() {
-  docker exec -it packettracer bash
+  docker exec -it cisco-packet-tracer bash
 }
 
 # Main menu
