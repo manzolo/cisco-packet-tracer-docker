@@ -1,6 +1,6 @@
 # Cisco Packet Tracer Docker Image
 
-This repository contains a Dockerfile for building a Docker image of Cisco Packet Tracer.
+This repository contains a Dockerfile for building a Docker image of Cisco Packet Tracer 8.2.2.
 
 ## Prerequisites
 
