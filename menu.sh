@@ -2,7 +2,7 @@
 
 # Function to build the Docker image
 build_image() {
-  docker build --progress=plain -t manzolo/cisco-packet-tracer .
+  docker build -t manzolo/cisco-packet-tracer .
 }
 
 # Function to run the Docker container with X11 forwarding and volumes
